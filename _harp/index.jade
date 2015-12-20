@@ -1,24 +1,442 @@
-nav.navbar.navbar-inverse.navbar-fixed-top(role="navigation")
-    div.container
-        div.navbar-header
-            button.navbar-toggle(type="button", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1")
-                span.sr-only Toggle navigation
-                span.icon-bar
-                span.icon-bar
-                span.icon-bar
-            a.navbar-brand(href="#") Harp/Bootstrap Starter
-        div.collapse.navbar-collapse(id="bs-example-navbar-collapse-1")
-            ul.nav.navbar-nav.navbar-right
-                li
-                    a(href="#") About
-                li
-                    a(href="#") Services
-                li
-                    a(href="#") Contact
-
-div.container
-    div.row
-        div.col-lg-12.text-center
-            h1 A Harp.js Bootstrap Starter template
-            p.lead From your friend at #[a(href="http://digitalstrategy.tips", target="_blank") DigitalStrategy.tips].
-            p Adapted from the #[a(href="https://getbootstrap.com/examples/starter-template/", target="_blank") Starter Template on Bootstrap], This theme includes all Bootstrap less and jQuery files locally for ultimate offline customization.
+// Navigation
+nav.navbar.navbar-default.navbar-fixed-top
+  .container
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header.page-scroll
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='#page-top') Movimiento Cosecha
+    // Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li.hidden
+          a(href='#page-top')
+        li.page-scroll
+          a(href='#portfolio') About
+        li.page-scroll
+          a(href='#about') Donate
+        li.page-scroll
+          a(href='#contact') We Support
+        li.page-scroll
+          a(href='http://portal.movimientocosecha.com') Login
+    // /.navbar-collapse
+    // /.container-fluid
+// Header
+header
+  .container
+    .row
+      .col-lg-12
+        img.img-responsive(src='img/profile.png', alt='')
+        .intro-text
+          span.name Movimiento Cosecha
+          hr.star-light.star-light2
+          span.skills Family - Respect - Opportunity
+// Portfolio Grid Section
+section#portfolio
+  .container
+    .row
+      .col-lg-12.text-center
+        h2 A Bit About Us
+        hr.star-primary
+    .row
+      .col-lg-12
+        p
+          | We spent a year and a half thinking about and testing the right nonviolent strategy for the migrant rights movement in this country.
+        p
+          | We launched our movement with a national training in Wisconsin in July. Since then, we've doubled in size! We're now in Arizona, California, Florida, Massachusetts, New Jersey, North Carolina, Pennsylvania, Texas, and Wisconsin.
+      //
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+        <a href="http://portal.movimientocosecha.com" class="btn btn-lg btn-success">
+        <i class="fa fa-download"></i> See the Strategy
+        </a>
+        </div>
+// About Section
+section#about.success
+  .container
+    .row
+      .col-lg-12.text-center
+        h2 Donate
+        hr.star-light
+    .row
+      .container
+        .col-lg-12
+          p
+            | All financial support is welcome. Expense decisions are made by
+            | circle (team) members and is based on their budget priorities.
+          p
+            | For example, right now our biggest need is to help financially support the basic needs of our volunteer organizers (food, rent, flights, etc.) and purchase materials for our merchandise, which we use to fundraise in a grassroots manner. In the future, the biggest needs might be to put on a local training or support a family who is a part of the strike. Again, each expense is decided by a circle of members.
+          p
+            | So that some circles don’t accumulate more monetary power than others, we will only accept $5,000 in donations per project or village.
+          p Examples: 
+          ul
+            li $5,000 for the Homestead, Florida Strike Fund
+            li $5,000 for the Portland, Oregon Boycott Fund
+            li $5,000 for the Phoenix, Arizona Local Training Fund
+          h3
+            | You can donate in one of two ways: 
+            ol
+              li
+                | Seeding:
+                | A one time donation. Click here.
+              li
+                | Watering:
+                | A monthly donation. Click here and check the box “Make this Recurring (Monthly)”.
+              |   Don't forget!
+            p
+              | Sign up for our monthly e-newsletter to find out our greatest needs and how you can continue to support.
+            .col-sm-6.portfolio-item
+              a.portfolio-link(href='https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=qI3FjvoKCBffiydw9mRDrQRalXEUciUeAJl7ELyeTlJXYORz1dxXwXTdsEe&dispatch=5885d80a13c0db1f8e263663d3faee8d64ad11bbf4d2a5a1a0d303a50933f9b2', target='_blank', data-toggle='modal')
+                .caption
+                  .caption-content
+                    i.fa.fa-search-plus.fa-3x
+                img.img-responsive(src='img/portfolio/seed.jpg', alt='')
+            .col-sm-6.portfolio-item
+              a.portfolio-link(href='https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=cG9MMYnx0IpV6-9PoEDTJvMz4ZlO5XikmVXsV2avPkUOiPdyiCHwAvBxeI8&dispatch=5885d80a13c0db1f8e263663d3faee8d64ad11bbf4d2a5a1a0d303a50933f9b2', target='_blank', data-toggle='modal')
+                .caption
+                  .caption-content
+                    i.fa.fa-search-plus.fa-3x
+                img.img-responsive(src='img/portfolio/water.jpg', alt='')
+    .row
+      //
+        <div class="col-sm-4 portfolio-item">
+        <a href="http://bit.ly/cosecha-training" target="_blank" class="portfolio-link" data-toggle="modal">
+        <div class="caption">
+        <div class="caption-content">
+        <i class="fa fa-search-plus fa-3x"></i>
+        </div>
+        </div>
+        <img src="img/portfolio/training.png" class="img-responsive" alt="">
+        </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+        <a href="http://bit.ly/cosecha-action" target="_blank" class="portfolio-link" data-toggle="modal">
+        <div class="caption">
+        <div class="caption-content">
+        <i class="fa fa-search-plus fa-3x"></i>
+        </div>
+        </div>
+        <img src="img/portfolio/action.png" class="img-responsive" alt="">
+        </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+        <a href="http://bit.ly/cosecha-support" target="_blank" class="portfolio-link" data-toggle="modal">
+        <div class="caption">
+        <div class="caption-content">
+        <i class="fa fa-search-plus fa-3x"></i>
+        </div>
+        </div>
+        <img src="img/portfolio/support.png" class="img-responsive" alt="">
+        </a>
+        </div>
+      //
+        <div class="col-sm-12">
+        <h3 class="text-center">Donation Instructions</h3>
+        <ol>
+        <li>Click on the link for the fund you wish to sponsor</li>
+        <li>  Type the amount you want to donate</li>
+        <li>Check the checkbox next to the donation amount</li>
+        <li>If you have a paypal account, type your email and password on the box at the bottom right hand corner. </li>
+        <li>If you don't have a paypal account click on "Continue" under the "Don't have a paypal account?" section located on the bottom left hand corner of the page, above the credit card logos.</li>
+        <li>Type the information requested</li>
+        <li>Click on the yellow "Review Donation and Continue" button</li>
+        <li>Review your donation and click on the yellow "Donate ($XX.XX USD) Now" button.</li>
+        <li>Thank you for being super amazing!</li>
+        </ol>
+        </div>
+      //
+        <div class="col-sm-4 portfolio-item">
+        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+        <div class="caption">
+        <div class="caption-content">
+        <i class="fa fa-search-plus fa-3x"></i>
+        </div>
+        </div>
+        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+        </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+        <div class="caption">
+        <div class="caption-content">
+        <i class="fa fa-search-plus fa-3x"></i>
+        </div>
+        </div>
+        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+        </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+        <div class="caption">
+        <div class="caption-content">
+        <i class="fa fa-search-plus fa-3x"></i>
+        </div>
+        </div>
+        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+        </a>
+        </div>
+// Contact Section
+section#contact
+  .container
+    .row
+      .col-lg-12.text-center
+        h2 We Support
+        hr.star-primary
+    .row
+      .col-lg-8.col-lg-offset-2
+        h3 This immigrant movement is part of a larger family of movements 
+        p
+          strong We are
+          | : Family members, that's why we support the fight to stay unified and not in centers of incarceration.
+        p
+          strong Earthlings
+          | , that's why we support the fight for more sustainable living and reciprocity towards Mother Earth.
+        p
+          strong LGBTQIA
+          | , that's why we support the fight for dignity and respect for all.
+        p
+          strong Workers
+          | , that's why we support the fight for a living wage.
+        p
+          strong Originally from Africa, Asia, Latin America, and Europe
+          | , that's why we support fights against racism and are in support of equity and respecting the humanity of all.
+// Footer
+footer.text-center
+  .footer-above
+    .container
+      //
+        <div class="row">
+        <div class="footer-col col-md-4">
+        <h3>Location</h3>
+        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+        </div>
+        <div class="footer-col col-md-4">
+        <h3>Around the Web</h3>
+        <ul class="list-inline">
+        <li>
+        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+        </li>
+        <li>
+        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+        </li>
+        <li>
+        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+        </li>
+        <li>
+        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+        </li>
+        <li>
+        <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+        </li>
+        </ul>
+        </div>
+        <div class="footer-col col-md-4">
+        <h3>Movimiento Cosecha</h3>
+        < <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+        </div>
+        </div>
+  .footer-below
+    .container
+      .row
+        .col-lg-12
+          | Made and coded with Love by immigrant youth. 
+          a(href='https://github.com/celsom3/movimientocosecha', target='_blank') Web Devs and Programmers can help here.
+// Scroll to Top Button (Only visible on small and extra-small screen sizes)
+.scroll-top.page-scroll.visible-xs.visible-sm
+  a.btn.btn-primary(href='#page-top')
+    i.fa.fa-chevron-up
+// Portfolio Modals
+#portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            h2 Project Title
+            hr.star-primary
+            img.img-responsive.img-centered(src='img/portfolio/cabin.png', alt='')
+            p
+              | Use this area of the page to describe your project. The icon above is part of a free icon set by 
+              a(href='https://sellfy.com/p/8Q9P/jV3VZ/') Flat Icons
+              | . On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+            ul.list-inline.item-details
+              li
+                | Client:
+                strong
+                  a(href='http://startbootstrap.com') Start Bootstrap
+              li
+                | Date:
+                strong
+                  a(href='http://startbootstrap.com') April 2014
+              li
+                | Service:
+                strong
+                  a(href='http://startbootstrap.com') Web Development
+            button.btn.btn-default(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              |  Close
+#portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            h2 Project Title
+            hr.star-primary
+            img.img-responsive.img-centered(src='img/portfolio/cake.png', alt='')
+            p
+              | Use this area of the page to describe your project. The icon above is part of a free icon set by 
+              a(href='https://sellfy.com/p/8Q9P/jV3VZ/') Flat Icons
+              | . On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+            ul.list-inline.item-details
+              li
+                | Client:
+                strong
+                  a(href='http://startbootstrap.com') Start Bootstrap
+              li
+                | Date:
+                strong
+                  a(href='http://startbootstrap.com') April 2014
+              li
+                | Service:
+                strong
+                  a(href='http://startbootstrap.com') Web Development
+            button.btn.btn-default(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              |  Close
+#portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            h2 Project Title
+            hr.star-primary
+            img.img-responsive.img-centered(src='img/portfolio/circus.png', alt='')
+            p
+              | Use this area of the page to describe your project. The icon above is part of a free icon set by 
+              a(href='https://sellfy.com/p/8Q9P/jV3VZ/') Flat Icons
+              | . On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+            ul.list-inline.item-details
+              li
+                | Client:
+                strong
+                  a(href='http://startbootstrap.com') Start Bootstrap
+              li
+                | Date:
+                strong
+                  a(href='http://startbootstrap.com') April 2014
+              li
+                | Service:
+                strong
+                  a(href='http://startbootstrap.com') Web Development
+            button.btn.btn-default(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              |  Close
+#portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            h2 Project Title
+            hr.star-primary
+            img.img-responsive.img-centered(src='img/portfolio/game.png', alt='')
+            p
+              | Use this area of the page to describe your project. The icon above is part of a free icon set by 
+              a(href='https://sellfy.com/p/8Q9P/jV3VZ/') Flat Icons
+              | . On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+            ul.list-inline.item-details
+              li
+                | Client:
+                strong
+                  a(href='http://startbootstrap.com') Start Bootstrap
+              li
+                | Date:
+                strong
+                  a(href='http://startbootstrap.com') April 2014
+              li
+                | Service:
+                strong
+                  a(href='http://startbootstrap.com') Web Development
+            button.btn.btn-default(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              |  Close
+#portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            h2 Project Title
+            hr.star-primary
+            img.img-responsive.img-centered(src='img/portfolio/safe.png', alt='')
+            p
+              | Use this area of the page to describe your project. The icon above is part of a free icon set by 
+              a(href='https://sellfy.com/p/8Q9P/jV3VZ/') Flat Icons
+              | . On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+            ul.list-inline.item-details
+              li
+                | Client:
+                strong
+                  a(href='http://startbootstrap.com') Start Bootstrap
+              li
+                | Date:
+                strong
+                  a(href='http://startbootstrap.com') April 2014
+              li
+                | Service:
+                strong
+                  a(href='http://startbootstrap.com') Web Development
+            button.btn.btn-default(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              |  Close
+#portfolioModal6.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            h2 Project Title
+            hr.star-primary
+            img.img-responsive.img-centered(src='img/portfolio/submarine.png', alt='')
+            p
+              | Use this area of the page to describe your project. The icon above is part of a free icon set by 
+              a(href='https://sellfy.com/p/8Q9P/jV3VZ/') Flat Icons
+              | . On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+            ul.list-inline.item-details
+              li
+                | Client:
+                strong
+                  a(href='http://startbootstrap.com') Start Bootstrap
+              li
+                | Date:
+                strong
+                  a(href='http://startbootstrap.com') April 2014
+              li
+                | Service:
+                strong
+                  a(href='http://startbootstrap.com') Web Development
+            button.btn.btn-default(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              |  Close
