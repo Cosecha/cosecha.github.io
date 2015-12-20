@@ -1,39 +1,51 @@
 # Cosecha.github.io
 
+This is the static site behind [movimientocosecha.com](http://movimientocosecha.com). In keeping along with our values, this site is open sourced for anyone to be able to see and propose changes.
 
+Below are some instructions on how to participate in either web design or content contribution.
 
-## Requirements
+## Technical Requirements
 
-Assuming you have NPM (Node Package Manager) on your machine, just run:
+This tutorial will start with the assumption that you have NPM (Node Package Manager) on your machine. To install Harp, just run:
 ```
 sudo npm install -g harp
 ```
 If command is not working visit [their site](http://harpjs.com) for complete instructions.
+
 ## How To Use
 
-### For Rapid Protopyping
+### Why Harp?
+
+Harp has some really cool features. It is fairly easy to learn for beginners.
+
+### Getting Started
 
 First clone the repository to your working directory
 ```
-git clone https://github.com/celsom3/Harp-Bootstrap-Starter.git
+git clone https://github.com/Cosecha/cosecha.github.io.git
 ```
 Move into that directory
 ```
-cd Harp-Bootstrap-Starter
+cd cosecha.github.io
 ```
 Since you already have Harp.js installed, just run:
 ```
 harp server
 ```
+That's it! You are now running the site on your very own local server. Just go to `localhost:9000` on your browser.
+
+Now you can edit content or any other part of the site.
 
 ### Compiling
 
-Once your are done, you might like to use the compiled files for whatever reasons (WordPress theme, Drupal theme, Meteor, Static Site server, etc). To get that output simply run the command:
+Once you make your edits, you need to compile your changes into a static site. Stop your server with Ctrl-C and, while still in the repo root directory, run:
 ```
-harp compile
+harp compile _harp ./
 ```
-This will generate a `/www` folder in your directory where the compile and minified html, css, and JavaScript will be.
+This will generate the site file in the root of your directory.
 
-## Buy me a coffee
+### Getting your changes merged
 
-If you like this tool, consider [buying a cup of coffee](https://cash.me/$celsom3).
+Now it is time to make a pull request so that your changes are merged to the master branch of our repository. Isn't open source beautiful?
+
+TODO: Add instructions here.
