@@ -1,5 +1,7 @@
 @import url('_less/bootstrap.less');
 
+@brand-color-1: #356C84;
+@brand-color-2: #ceb365;
 
 		/*!
 		 * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
@@ -37,6 +39,15 @@
 		    text-transform: uppercase;
 		    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		    font-weight: 700;
+
+		}
+
+		.color-primary{
+			color: @brand-color-1;
+		}
+
+		.color-secondary{
+			color: @brand-color-2;
 		}
 
 		hr.star-light,
@@ -175,6 +186,10 @@
 
 		.navbar .navbar-nav {
 		    letter-spacing: 1px;
+				color: #fff;
+				& > li > a {
+					color: #fff;
+				}
 		}
 
 		.navbar .navbar-nav li a:focus {
@@ -185,7 +200,9 @@
 		.navbar-inverse {
 		    border: 0;
 		}
-
+		.navbar-default .navbar-brand{
+		    color: #fff;
+		}
 		.navbar-default .navbar-brand:hover{
 		    color: #356C84;
 		}
