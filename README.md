@@ -1,5 +1,7 @@
 # Cosecha.github.io
 
+[![Join the chat at https://gitter.im/Cosecha/cosecha.github.io](https://badges.gitter.im/Cosecha/cosecha.github.io.svg)](https://gitter.im/Cosecha/cosecha.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is the static site behind [movimientocosecha.com](http://movimientocosecha.com). In keeping along with our values, this site is open sourced for anyone to be able to see and propose changes.
 
 Below are some instructions on how to participate in either web design or content contribution.
