@@ -22,7 +22,13 @@ html(lang='en')
 
 
   body#page-top.index
+  
+    include _partials/nav.jade
+    
     != yield
+    
+    include _partials/footer.jade
+    
     // jQuery
     script(src='js/jquery-2.1.4.js')
     // Bootstrap Core JavaScript
