@@ -1,99 +1,110 @@
 
 // Header
 header
-  .container
-    .row
-      .col-lg-12
-        img.img-responsive(src='img/profile.png', alt='')
-        .intro-text
-          span.name.color-secondary Movimiento Cosecha
-          hr.star-light.star-light2
-          span.skills Family - Respect - Opportunity
+	.container
+		.row
+			.col-lg-12
+				img.img-responsive(src='img/profile.png', alt='')
+				.intro-text
+					span.name.color-secondary Movimiento Cosecha
+					hr.star-light.star-light2
+					span.skills Dignidad - Respeto - Proteccion Permanente
 
-// Portfolio Grid Section
-section#portfolio
-  .container
-    .row
-      .col-lg-12.text-center
-        h2 A Bit About Us
-        hr.star-primary
-    .row
-      .col-lg-12
-        p
-          | We spent a year and a half thinking about and testing the right nonviolent strategy for the migrant rights movement in this country.
-        p
-          | We launched our movement with a national training in Wisconsin in July. Since then, we've doubled in size! We're now in Arizona, California, Florida, Massachusetts, New Jersey, North Carolina, Pennsylvania, Texas, and Wisconsin.
-      //
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-        <a href="http://portal.movimientocosecha.com" class="btn btn-lg btn-success">
-        <i class="fa fa-download"></i> See the Strategy
-        </a>
-        </div>
+
+section#about
+	.container
+		.row
+			.col-lg-12.text-center
+				h2 About Cosecha
+				hr.star-primary
+		.row
+			.col-lg-12
+				p
+					| We spent a year and a half thinking about and testing the right nonviolent strategy for the migrant rights movement in this country.
+				p
+					| We launched our movement with a national training in Wisconsin in July. Since then, we've doubled in size! We're now in Arizona, California, Florida, Massachusetts, New Jersey, North Carolina, Pennsylvania, Texas, and Wisconsin.
+			//
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+				<a href="http://portal.movimientocosecha.com" class="btn btn-lg btn-success">
+				<i class="fa fa-download"></i> See the Strategy
+				</a>
+				</div>
+section#plan
+	.container
+		.row
+			.col-lg-12.text-center
+				h2 El Plan Cosecha
+
+section#organizacion
+	.container
+		.row
+			.col-lg-12.text-center
+				h2 Nuestra Organizacion
 // About Section
-section#about.success
-  .container
-    .row
-      .col-lg-12.text-center
-        h2 Donate
-        hr.star-light
-    .row
-      .container
-        .col-lg-12
-          p
-            | All financial support is welcome. Expense decisions are made by
-            | circle (team) members and is based on their budget priorities.
-          p
-            | For example, right now our biggest need is to help financially support the basic needs of our volunteer organizers (food, rent, flights, etc.) and purchase materials for our merchandise, which we use to fundraise in a grassroots manner. In the future, the biggest needs might be to put on a local training or support a family who is a part of the strike. Again, each expense is decided by a circle of members.
-          p
-            | So that some circles don’t accumulate more monetary power than others, we will only accept $5,000 in donations per project or village.
-          p Examples: 
-          ul
-            li $5,000 for the Homestead, Florida Strike Fund
-            li $5,000 for the Portland, Oregon Boycott Fund
-            li $5,000 for the Phoenix, Arizona Local Training Fund
-          h3
-            | You can donate in one of two ways: 
-            ol
-              li
-                | Seeding:
-                | A one time donation. Click here.
-              li
-                | Watering:
-                | A monthly donation. Click here and check the box “Make this Recurring (Monthly)”.
-              |   Don't forget!
-            p
-              | Sign up for our monthly e-newsletter to find out our greatest needs and how you can continue to support.
-            .col-sm-12.portfolio-item
-              a.portfolio-link(href='https://www.youcaring.com/cosecha-movement-506139', target='_blank', data-toggle='modal')
-                .caption
-                  .caption-content
-                    i.fa.fa-search-plus.fa-3x
-                img.img-responsive(src='img/portfolio/seed.jpg', alt='')
-            
-    .row
+section#donate.success
+	.container
+		.row
+			.col-lg-12.text-center
+				h2 Donate
+				hr.star-light
+		.row
+			.container
+				.col-lg-12
+					p
+						| All financial support is welcome. Expense decisions are made by
+						| circle (team) members and is based on their budget priorities.
+					p
+						| For example, right now our biggest need is to help financially support the basic needs of our volunteer organizers (food, rent, flights, etc.) and purchase materials for our merchandise, which we use to fundraise in a grassroots manner. In the future, the biggest needs might be to put on a local training or support a family who is a part of the strike. Again, each expense is decided by a circle of members.
+					p
+						| So that some circles don’t accumulate more monetary power than others, we will only accept $5,000 in donations per project or village.
+					p Examples: 
+					ul
+						li $5,000 for the Homestead, Florida Strike Fund
+						li $5,000 for the Portland, Oregon Boycott Fund
+						li $5,000 for the Phoenix, Arizona Local Training Fund
+					h3
+						| You can donate in one of two ways: 
+						ol
+							li
+								| Seeding:
+								| A one time donation. Click here.
+							li
+								| Watering:
+								| A monthly donation. Click here and check the box “Make this Recurring (Monthly)”.
+							|   Don't forget!
+						p
+							| Sign up for our monthly e-newsletter to find out our greatest needs and how you can continue to support.
+						.col-sm-12.portfolio-item
+							a.portfolio-link(href='https://www.youcaring.com/cosecha-movement-506139', target='_blank', data-toggle='modal')
+								.caption
+									.caption-content
+										i.fa.fa-search-plus.fa-3x
+								img.img-responsive(src='img/portfolio/seed.jpg', alt='')
+
+		.row
 
 // Contact Section
 section#contact
-  .container
-    .row
-      .col-lg-12.text-center
-        h2 We Support
-        hr.star-primary
-    .row
-      .col-lg-8.col-lg-offset-2
-        h3 This immigrant movement is part of a larger family of movements 
-        p
-          strong We are
-          | : Family members, that's why we support the fight to stay unified and not in centers of incarceration.
-        p
-          strong Earthlings
-          | , that's why we support the fight for more sustainable living and reciprocity towards Mother Earth.
-        p
-          strong LGBTQIA
-          | , that's why we support the fight for dignity and respect for all.
-        p
-          strong Workers
-          | , that's why we support the fight for a living wage.
-        p
-          strong Originally from Africa, Asia, Latin America, and Europe
-          | , that's why we support fights against racism and are in support of equity and respecting the humanity of all.
+	.container
+		.row
+			.col-lg-12.text-center
+				h2 We Support
+				hr.star-primary
+		.row
+			.col-lg-8.col-lg-offset-2
+				h3 This immigrant movement is part of a larger family of movements 
+				p
+					strong We are
+					| : Family members, that's why we support the fight to stay unified and not in centers of incarceration.
+				p
+					strong Earthlings
+					| , that's why we support the fight for more sustainable living and reciprocity towards Mother Earth.
+				p
+					strong LGBTQIA
+					| , that's why we support the fight for dignity and respect for all.
+				p
+					strong Workers
+					| , that's why we support the fight for a living wage.
+				p
+					strong Originally from Africa, Asia, Latin America, and Europe
+					| , that's why we support fights against racism and are in support of equity and respecting the humanity of all.
