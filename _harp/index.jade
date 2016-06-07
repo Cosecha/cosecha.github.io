@@ -117,3 +117,16 @@ section#unete
 				script(src='https://actionnetwork.org/widgets/v2/form/get-the-cosecha-dna-in-your-email-2?format=js&source=widget&style=full')
 				#can-form-area-get-the-cosecha-dna-in-your-email-2(style='width: 100%')
 				// this div is the target for our HTML insertion
+		.row
+			.col-lg-12
+				#langBox(style='margin-left: 20px; margin-bottom: 20px;')
+					| Language:
+					select#lang
+						option(value='browser', selected='') Browser Default
+						option(value='en') en
+						option(value='de_DE') de_DE
+						option(value='es_ES') es_ES
+						option(value='fr') fr
+					#msg_welcome(style='margin-left: 20px;') Welcome to the Demo Site!
+					br
+					#msg_selLang(style='margin-left: 20px;') Your Selected Language is: Default 
