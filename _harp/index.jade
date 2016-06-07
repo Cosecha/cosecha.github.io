@@ -6,9 +6,9 @@ header
 			.col-lg-12
 				img.img-responsive(src='img/profile.png', alt='')
 				.intro-text
-					span.name.color-secondary Movimiento Cosecha
+					span.name.color-secondary.i18n(data-spanish="Movimiento Cosecha" data-english="Cosecha Movement") Movimiento Cosecha
 					hr.star-light.star-light2
-					span.skills Dignidad - Respeto - Proteccion Permanente
+					span.skills.i18n(data-spanish="Dignidad - Respeto - Proteccion Permanente" data-english="Dignity - Respect - Permanent Protection") Dignidad - Respeto - Proteccion Permanente
 
 
 
@@ -25,7 +25,7 @@ section#principios.success
 	.container
 		.row
 			.col-lg-12.text-center
-				h2 Principios de Cosecha
+				h2.i18n(data-spanish="Principios de Cosecha" data-english="Cosecha Principles") Principios de Cosecha
 		.row
 			.col-md-4.col-sm-6.img-principle
 				img.img-responsive(src="http://wiki.movimientocosecha.com/lib/exe/fetch.php/cosecha:principle-01.jpg")
@@ -69,7 +69,7 @@ section#historia.gray
 	.container
 		.row
 			.col-lg-12.text-center
-				h2 Historia
+				h2.i18n(data-spanish="Historia" data-english="Our Story") Historia
 				//- hr.star-primary
 		.row
 			.col-lg-12
@@ -90,25 +90,25 @@ section#unete
 	.container
 		.row
 			.col-lg-12.text-center
-				h2 Unete
+				h2.i18n(data-spanish="Unete" data-english="Join Us") Unete
 				hr.star-primary
 		.row
 			.col-sm-3.text-center
-				h3 Apoya a Sostener Cada Mes
-				a.btn.btn-primary(href="#") Click Here
+				h3.i18n(data-spanish="Apoya a Sostener Cada Mes" data-english="Become a Monthly Sustainer") Apoya a Sostener Cada Mes
+				a.btn.btn-primary.i18n(href="#" data-spanish="Haz Click Aqui" data-english="Click Here") Haz Click Aqui
 			.col-sm-3.text-center
-				h3 Empieza Cosecha en Tu Ciudad
-				a.btn.btn-primary(href="#") Click Here
+				h3.i18n(data-spanish="Empieza Cosecha en Tu Ciudad" data-english="Start Cosecha in your City") Empieza Cosecha en Tu Ciudad
+				a.btn.btn-primary.i18n(href="#" data-spanish="Haz Click Aqui" data-english="Click Here") Haz Click Aqui
 			.col-sm-3.text-center
-				h3 Hazte Amig@ de Cosecha
-				a.btn.btn-primary(href="#") Click Here
+				h3.i18n(data-spanish="Hazte Amig@ de Cosecha" data-english="Become a friend of Cosecha") Hazte Amig@ de Cosecha
+				a.btn.btn-primary.i18n(href="#" data-spanish="Haz Click Aqui" data-english="Click Here") Haz Click Aqui
 			.col-lg-3.text-center
-				h3 Compra de la Tienda Cosecha
-				a.btn.btn-primary(href="#") Click Here
+				h3.i18n(data-spanish="Compra de la Tienda Cosecha" data-english="Buy from the Cosecha Store") Compra de la Tienda Cosecha
+				a.btn.btn-primary.i18n(href="#" data-spanish="Haz Click Aqui" data-english="Click Here") Haz Click Aqui
 		hr
 		.row
 			.col-lg-12.text-center
-				h2 Inscribite
+				h2.i18n(data-spanish="Inscribite" data-english="Sign Up") Inscribite
 		.row
 			.col-lg-8.col-lg-offset-2
 				link(href='https://actionnetwork.org/css/style-embed.css', rel='stylesheet', type='text/css')
@@ -117,16 +117,3 @@ section#unete
 				script(src='https://actionnetwork.org/widgets/v2/form/get-the-cosecha-dna-in-your-email-2?format=js&source=widget&style=full')
 				#can-form-area-get-the-cosecha-dna-in-your-email-2(style='width: 100%')
 				// this div is the target for our HTML insertion
-		.row
-			.col-lg-12
-				#langBox(style='margin-left: 20px; margin-bottom: 20px;')
-					| Language:
-					select#lang
-						option(value='browser', selected='') Browser Default
-						option(value='en') en
-						option(value='de_DE') de_DE
-						option(value='es_ES') es_ES
-						option(value='fr') fr
-					#msg_welcome(style='margin-left: 20px;') Welcome to the Demo Site!
-					br
-					#msg_selLang(style='margin-left: 20px;') Your Selected Language is: Default 
