@@ -1,8 +1,17 @@
 $(document).ready(function(){
-		// Make sure language toggle starts out in Spanish
+
+		var i18n_data = {
+			es: i18n_es,
+			en: i18n_en
+		};
+
+		var Cosecha_i18n = _t(i18n_data);
+
+		Cosecha_i18n.setLanguage('es');
+	// Make sure language toggle starts out in Spanish
 		$('#lang-toggle').bootstrapToggle('on');
 		// Set i18n to Spanish
-		setLanguage('Spanish');
+		//setLanguage('Spanish');
 
 
 		// Run this whenever the language toggle is switched
@@ -15,35 +24,38 @@ $(document).ready(function(){
 			var isChecked = $(this).prop('checked');
 			var whichLang = getLanguage(isChecked);
 
-			setLanguage(whichLang);
+			Cosecha_i18n.setLanguage(whichLang);
 
 		});
+
+
+
 
 
 });
 
 function getLanguage(status){
 	if (status) {
-		return 'Spanish';
+		return 'es';
 	} else {
-		return 'English';
+		return 'en';
 	}
 }
 
 function setLanguage(lang) {
 	// This makes sure all .i18n content is using the set language
-	$('.i18n').each(function(){
-		switch (lang) {
-		case 'Spanish':
-			var text = $(this).data('spanish');
-			$(this).html(text);
-			break;
-		case 'English':
-			var text = $(this).data('english');
-			$(this).html(text);
-			break;
-	 }
-	});
+	// $('.i18n').each(function(){
+	// 	switch (lang) {
+	// 	case 'Spanish':
+	// 		var text = $(this).data('spanish');
+	// 		$(this).html(text);
+	// 		break;
+	// 	case 'English':
+	// 		var text = $(this).data('english');
+	// 		$(this).html(text);
+	// 		break;
+	//  }
+	// });
 
 	// This makes sure that all images being referenced are using the correct
 	// src attribute
@@ -61,12 +73,6 @@ function setLanguage(lang) {
 		}
 	});
 
-
-	var i18n_data = {
-		es: i18n_es,
-		en: i18n_en
-	};
-	_t(i18n_data).logLanguages();
 
 
 	// This makes sure that all scrips (right now only one) are using the
