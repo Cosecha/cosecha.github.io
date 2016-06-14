@@ -2,7 +2,8 @@ $(document).ready(function(){
 		// Load global translation data from global variables
 		var i18n_data = {
 			es: i18n_es,
-			en: i18n_en
+			en: i18n_en,
+			pt: i18n_pt
 		};
 
 		// Load i18n library

@@ -1,4 +1,4 @@
-var i18n_en = {
+var i18n_pt = {
 	"Cosecha_Movement": "Cosecha Movement",
 	"sub_title": "WE ARE FIGHTING FOR PERMANENT PROTECTION, DIGNITY AND RESPECT FOR OUR UNODUCEMTED IMMIGRANT COMMUNITY",
 	"cosecha_plan": "The Cosecha Strategy",
