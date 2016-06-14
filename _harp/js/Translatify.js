@@ -1,3 +1,8 @@
+// Author: Celso Mireles
+// Website: http://PochoLabs.com
+// License: MIT License
+// Github: 
+
 (function(global, $) {
 
 	var i18n = function(languages) {
@@ -27,6 +32,19 @@
 
 					$(this).html(libSelf.data[language][toSay]);
 				});
+
+			this.applyImages(language);
+
+			return this;
+		},
+		applyImages: function(language) {
+			var libSelf = this;
+
+			$('.img-i18n').each(function() {
+				var self = $(this);
+				var src = self.data('src');
+				$(this).attr('src', libSelf.data[language][src]);
+			});
 
 			return this;
 		},
