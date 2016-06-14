@@ -16,19 +16,15 @@
 		},
 		logLanguages: function() {
 			if ( console ) {
-				console.log('Languages: ' + this.languageList);
+				console.log('Languages: ' + this.data);
 			}
 			return this;
 		}
 	};
 
-	i18n.init = function(languages) {
+	i18n.init = function(data) {
 		var self = this;
-		self.languageList = [];
-		for (i = 0; i < languages.length; i++) {
-			self.languageList.push(languages[i]);
-		}
-
+		self.data = data;
 	};
 
 	i18n.init.prototype = i18n.prototype;

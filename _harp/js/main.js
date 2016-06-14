@@ -61,7 +61,12 @@ function setLanguage(lang) {
 		}
 	});
 
-	_t(['es', 'en']).logLanguages();
+
+	var i18n_data = {
+		es: i18n_es,
+		en: i18n_en
+	};
+	_t(i18n_data).logLanguages();
 
 
 	// This makes sure that all scrips (right now only one) are using the
