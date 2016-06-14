@@ -61,6 +61,8 @@ function setLanguage(lang) {
 		}
 	});
 
+	_t(['es', 'en']).logLanguages();
+
 
 	// This makes sure that all scrips (right now only one) are using the
 	// the current language
