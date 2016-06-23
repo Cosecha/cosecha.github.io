@@ -101,6 +101,8 @@ var i18n_es = {
 	"close": " Cerrar",
 	"around_the_web": "A travez del Internet",
 	"made_with_love": "Hecho con &hearts; por jovenes indocumentados",
-	"website_is_open_source": "Este sitio es de fuente habierta, ayuda a desallorarla aqui"
+	"website_is_open_source": "Este sitio es de fuente habierta, ayuda a desallorarla aqui",
+
+	"sign_the_petition": "DAPA es Blockeado: Firma la Peticion"
 
 }

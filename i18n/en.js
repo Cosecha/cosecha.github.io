@@ -101,7 +101,9 @@ var i18n_en = {
 
 	"around_the_web": "Around the Web",
 	"made_with_love": "Made with &hearts; by undocumented immigrants.",
-	"website_is_open_source": "This website is open source, contribute with code here."
+	"website_is_open_source": "This website is open source, contribute with code here.",
+
+	"sign_the_petition": "DAPA is Blocked: Sign the Petition"
 
 
 
