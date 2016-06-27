@@ -1,3 +1,8 @@
 www/
 www/**
 .DS_Store
+
+# Folders to ignore
+node_modules
+bower
+source/bower
