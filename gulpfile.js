@@ -61,7 +61,6 @@ gulp.task('compile', function() {
 	return harp.compile(paths.harp , paths.harpCompiled, function() {
 		// After compiling with harp, move to root directory
 		gulp.src('_harp/www/**/*')
-			.pipe(prettify())
 			.pipe(gulp.dest('./'));
 	});
 
