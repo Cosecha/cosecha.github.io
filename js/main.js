@@ -29,6 +29,13 @@ $(document).ready(function(){
 
 		$('#portfolioModal15link').click();
 
+		// Load particleground
+
+		$('#particleground').particleground({
+	    dotColor: 'rgba(250,250,250,0.1)',
+	    lineColor: 'rgba(250,250,250,0.1)'
+		});
+
 });
 
 function getLanguage(status){
