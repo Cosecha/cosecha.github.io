@@ -1,53 +1,64 @@
 # Cosecha.github.io
 
-[![Join the chat at https://gitter.im/Cosecha/cosecha.github.io](https://badges.gitter.im/Cosecha/cosecha.github.io.svg)](https://gitter.im/Cosecha/cosecha.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at http://laplaza.movimientocosecha.com/channel/cosecha](https://dl.dropboxusercontent.com/u/16972085/cosecha/Welcome.svg)](http://laplaza.movimientocosecha.com/channel/cosecha)
 
 This is the static site behind [movimientocosecha.com](http://movimientocosecha.com). In keeping along with our values, this site is open sourced for anyone to be able to see and propose changes.
 
 Below are some instructions on how to participate in either web design or content contribution.
 
-## Technical Requirements
-
-This tutorial will start with the assumption that you have NPM (Node Package Manager) on your machine. To install Harp, just run:
-```
-sudo npm install -g harp
-```
-If command is not working visit [their site](http://harpjs.com) for complete instructions.
-
-## How To Use
-
 ### Why Harp?
 
 Harp has some really cool features. It is fairly easy to learn for beginners.
 
-### Getting Started
+# Getting Started
+## Setup
 
-First clone the repository to your working directory
+To start hacking you first need the following installed:
+
+1. Node.js
+2. Harp.js (globally)
+3. Git
+
+Once you have these ready you need to clone this repo into your machine:
+
 ```
-git clone https://github.com/Cosecha/cosecha.github.io.git
+git clone https://github.com/cosecha/cosecha.github.io.git
 ```
-Move into that directory
+
+Now move to that directory:
+
 ```
 cd cosecha.github.io
 ```
-Since you already have Harp.js installed, just run:
-```
-harp server
-```
-That's it! You are now running the site on your very own local server. Just go to `localhost:9000` on your browser.
 
-Now you can edit content or any other part of the site.
+Now install all the NPM dependencies:
 
-### Compiling
-
-Once you make your edits, you need to compile your changes into a static site. Stop your server with Ctrl-C and, while still in the repo root directory, run:
 ```
-harp compile _harp ./
+sudo npm install
 ```
-This will generate the site file in the root of your directory.
 
-### Getting your changes merged
+## Developing
+
+To start hacking/developing, simply run:
+
+```
+gulp
+```
+Your default browser should open up to `http://localhost:3001/`. It's a good idea to keep the browser visible as you develop, as any changes you make to files within the `_harp/` directory will cause the browser to refresh as soon as you save.
+
+## Compiling for GitHub Pages
+
+This is a little more involved... two commands.
+
+```
+gulp compile
+```
+then
+```
+gulp clean
+```
+This copies the compiles harp site to the root directory, without overwriting existing files, the way harp does this by default.
+
+## Getting your changes merged
 
 Now it is time to make a pull request so that your changes are merged to the master branch of our repository. Isn't open source beautiful?
-
-TODO: Add instructions here.
