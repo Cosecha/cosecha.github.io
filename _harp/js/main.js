@@ -27,7 +27,7 @@ $(document).ready(function(){
 
 		// Pop Up the modal with the DACA Petition
 
-		$('#portfolioModal15link').click();
+		//$('#portfolioModal15link').click();
 
 		// Load particleground
 

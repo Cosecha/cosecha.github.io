@@ -20,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/Cosecha/cosecha.github.io/issues"
   },
-  "homepage": "https://github.com/Cosecha/cosecha.github.io#readme"
+  "homepage": "https://github.com/Cosecha/cosecha.github.io#readme",
+	"devDependencies": {
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-harp": "0.0.4",
+    "gulp-ignore": "^2.0.1",
+    "gulp-prettify": "^0.4.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.8",
+    "harp": "^0.20.3"
+  }
 }
