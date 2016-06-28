@@ -104,6 +104,7 @@ var i18n_pt = {
 	"website_is_open_source": "This website is open source, contribute with code here.",
 
 	// FAQ section
+	"faq": "Preguntas",
 
 
 	"faq1-q": "What does Cosecha aim to achieve?",

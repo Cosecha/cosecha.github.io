@@ -106,7 +106,7 @@ var i18n_es = {
 	"sign_the_petition": "DAPA es Blockeado: Firma la Peticion",
 
 	// FAQ section
-
+	"faq": "Preguntas",
 
 	"faq1-q": "What does Cosecha aim to achieve?",
 	"faq1-a-1": "Cosecha is a popular movement for the permanent protection, respect, and dignity of all immigrants. Our grand strategy to win is divided into 4 phases, culminating in a general strike of millions of workers and students. This is not a legislative campaign, meaning that our movement is not aimed at a particular politician or CEO. However, we do expect permanent protection to be legislated by the end of our strike.",
