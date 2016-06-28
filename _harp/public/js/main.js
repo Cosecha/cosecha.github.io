@@ -36,6 +36,9 @@ $(document).ready(function(){
 	    lineColor: 'rgba(250,250,250,0.1)'
 		});
 
+		// FAQ Links
+
+
 });
 
 function getLanguage(status){
