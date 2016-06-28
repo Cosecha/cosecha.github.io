@@ -108,7 +108,7 @@ var i18n_es = {
 	// FAQ section
 	"faq": "Preguntas",
 
-	"faq1-q": "What does Cosecha aim to achieve?",
+	"faq1-q": "Que trata de hacer Cosecha?",
 	"faq1-a-1": "Cosecha is a popular movement for the permanent protection, respect, and dignity of all immigrants. Our grand strategy to win is divided into 4 phases, culminating in a general strike of millions of workers and students. This is not a legislative campaign, meaning that our movement is not aimed at a particular politician or CEO. However, we do expect permanent protection to be legislated by the end of our strike.",
 	"faq1-a-2": "The immigrant rights movement has historically been very legislative- over the past 15 years there have been many iterations of an immigration reform bill, and well resourced campaigns to push for a bipartisan “common sense immigration reform”. Our analysis is that the immigrant rights movement has not failed to achieve permanent protection from deportation and equal rights for undocumented immigrants because of a lack of policy proposals or insiders in Washington willing to negotiate a solution. What has been missing over the past two decades is a popular movement on the streets creating a moral dilemma for our country that forces Washington to finally make good on its long overdue promise to the immigrant community. If we can move the public, decision makers will follow. This a movement for what the community needs: a permanent right to stay.",
 
