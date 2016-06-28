@@ -1,6 +1,6 @@
 # Cosecha.github.io
 
-[![Join the chat at http://laplaza.movimientocosecha.com/channel/cosecha](https://dl.dropboxusercontent.com/u/16972085/cosecha/Welcome.svg)](http://laplaza.movimientocosecha.com/channel/cosecha)
+[![Join the chat at http://laplaza.movimientocosecha.com/channel/CosechaNetwork](https://dl.dropboxusercontent.com/u/16972085/cosecha/Welcome.svg)](http://laplaza.movimientocosecha.com/channel/CosechaNetwork)
 
 This is the static site behind [movimientocosecha.com](http://movimientocosecha.com). In keeping along with our values, this site is open sourced for anyone to be able to see and propose changes.
 
