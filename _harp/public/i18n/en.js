@@ -1,6 +1,6 @@
 var i18n_en = {
 	"Cosecha_Movement": "Cosecha Movement",
-	"sub_title": "WE ARE FIGHTING FOR PERMANENT PROTECTION, DIGNITY AND RESPECT FOR OUR UNODUCEMTED IMMIGRANT COMMUNITY",
+	"sub_title": "WE ARE FIGHTING FOR PERMANENT PROTECTION, DIGNITY AND RESPECT FOR OUR UNDOCUCEMTED IMMIGRANT COMMUNITY",
 	"cosecha_plan": "The Cosecha Strategy",
 	"img_cosecha_plan": "http://wiki.movimientocosecha.com/lib/exe/fetch.php/cosecha:160413-strategy-phases.jpg",
 	"cosecha_structure": "Cosecha Structure",

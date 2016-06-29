@@ -50,7 +50,7 @@ gulp.task('serve', function () {
         forms: false,
         scroll: true
       },
-      logLevel: "info",
+      logLevel: "debug",
       notify: false
     });
 	});
@@ -60,7 +60,7 @@ gulp.task('serve', function () {
 gulp.task('compile', function() {
 	return harp.compile(paths.harp , paths.harpCompiled, function() {
 		// After compiling with harp, move to root directory
-		gulp.src('_harp/www/**/*')
+		gulp.src('_harp/www/**/**/*')
 			.pipe(gulp.dest('./'));
 	});
 
