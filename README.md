@@ -34,8 +34,9 @@ cd cosecha.github.io
 Now install all the NPM dependencies:
 
 ```
-sudo npm install
+npm install
 ```
+NOTE: if that doesn't work, you may need to prefix the command with `sudo`.
 
 ## Developing
 
@@ -45,6 +46,23 @@ To start hacking/developing, simply run:
 gulp
 ```
 Your default browser should open up to `http://localhost:3001/`. It's a good idea to keep the browser visible as you develop, as any changes you make to files within the `_harp/` directory will cause the browser to refresh as soon as you save.
+
+#### BrowserSync
+
+One really cool thing about this dev setup is that you can test on mobile devices pretty easily using BrowserSync, which is already running when you start your local server.
+
+You can play with the settings at:
+
+```
+http://localhost:3002
+```
+
+As long as you're mobile device is connected to the same wifi network as your dev machine running gulp, you can use the url provided in the BrowserSync settings page under "External". The url will look something like this:
+
+```
+http://192.168.1.107:3001
+```
+Type that up in your phone's browser, and voila, you are visiting the dev site! This is really handy to test any edits you make.
 
 ## Compiling for GitHub Pages
 
