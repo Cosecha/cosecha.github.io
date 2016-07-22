@@ -132,10 +132,10 @@ var i18n_en = {
 	"faq8-a-1": "Cosecha is a self-organizing popular movement, not a 501c(3). A self-organizing popular movement means that there are structures in place that allow anyone who follows the strategy and principles of Cosecha to form their own village. This way, Cosecha can grow to scale. Cosecha would not be able absorb the millions of people we aim to mobilize or be able to grow across so many different cities under the structure of a 501c(3).",
 
 	"faq9-q": "How can I make a contribution?",
-	"faq9-a-1": "You can make contributions to 3 Cosecha Houses: Boston, MA; Harrison, NJ; and San Jose CA. We invite everyone to become a monthly sustainer of the Cosecha Houses. Monthly sustainers help ensure that the Cosecha Houses receive a guaranteed income each month in order to meet our monthly budget.",
+	"faq9-a-1": "You can make contributions to 3 Cosecha Houses: Boston, MA; Harrison, NJ; and California. We invite everyone to become a monthly sustainer of the Cosecha Houses. Monthly sustainers help ensure that the Cosecha Houses receive a guaranteed income each month in order to meet our monthly budget.",
 	"faq9-a-2": "Boston, MA: Monthly sustainer: https://actionnetwork.org/fundraising/sustain-cosecha-2?source=direct_link&. 1-time donation: https://actionnetwork.org/fundraising/support-cosecha?source=direct_link& ",
 	"faq9-a-3": "Harrison, NJ: Monthly sustainer: https://actionnetwork.org/fundraising/become-a-sustainer-of-cosecha-new-jersey-conviertete-en-un-sponsor-de-cosecha-new-jersey. ",
-	"faq9-a-4": "San Jose, CA: Monthly sustainer: https://actionnetwork.org/fundraising/sustain-ca-cosecha-house. 1-time donation: https://actionnetwork.org/fundraising/support-ca-cosecha-house. ",
+	"faq9-a-4": "California: Monthly sustainer: https://actionnetwork.org/fundraising/sustain-ca-cosecha-house. 1-time donation: https://actionnetwork.org/fundraising/support-ca-cosecha-house. ",
 
 	"faq10-q": "How will my contribution be used?",
 	"faq10-a-1": "Your contribution will go towards meeting the monthly needs of the Houses. Supporting the House is currently one of the best ways to support the development of the movement in general. The Houses generally have a budget of between $3500 - $4500/month. ",
