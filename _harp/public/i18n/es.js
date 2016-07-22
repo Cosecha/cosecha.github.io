@@ -132,23 +132,20 @@ var i18n_es = {
 
 	"faq9-q": "Cómo puedo hacer una donación?",
 	"faq9-a-1": "Pueden hacer contribuciones a las 3 Casas Cosecha: Boston, MA; Harrison, NJ; San Jose, CA. Les invitamos a todos a ser sostenedores mensuales de las casas. Los sostenedores mensuales ayudan a asegurar que la casa reciba fondos garantizados cada mes para alcanzar todos sus gastos. ",
-	
-	"faq9-a-2": "Boston, MA: Sostenedor mensual: https://actionnetwork.org/fundraising/sustain-cosecha-2?source=direct_link&. Donación individual: https://actionnetwork.org/fundraising/support-cosecha?source=direct_link&. ", 
-	
+
+	"faq9-a-2": "Boston, MA: Sostenedor mensual: https://actionnetwork.org/fundraising/sustain-cosecha-2?source=direct_link&. Donación individual: https://actionnetwork.org/fundraising/support-cosecha?source=direct_link&. ",
+
 	"faq9-a-3": "Harrison, NJ: Sostenedor mensual: https://actionnetwork.org/fundraising/become-a-sustainer-of-cosecha-new-jersey-conviertete-en-un-sponsor-de-cosecha-new-jersey. ",
-	
-	"faq9-a-4": "San Jose, CA: Sostenedor mensual: https://actionnetwork.org/fundraising/sustain-ca-cosecha-house. Donación individual: https://actionnetwork.org/fundraising/support-ca-cosecha-house. ", 
-	
-	"faq9-a-5": "Apoyar las casas es actualmente una de las mejores maneras de apoyar el desarrollo del movimiento en general. Las casas normalmente tiene un presupuesto mensual de entre $3500 - $4500. Esto significa que tenemos que recaudar muchos fondos cada mes sólo para pagar los biles! ",	
-	
+	"faq9-a-4": "San Jose, CA: Sostenedor mensual: https://actionnetwork.org/fundraising/sustain-ca-cosecha-house. Donación individual: https://actionnetwork.org/fundraising/support-ca-cosecha-house.",
+
+	"faq9-a-5": "Apoyar las casas es actualmente una de las mejores maneras de apoyar el desarrollo del movimiento en general. Las casas normalmente tiene un presupuesto mensual de entre $3500 - $4500. Esto significa que tenemos que recaudar muchos fondos cada mes sólo para pagar los biles! ",
+
 	"faq12-q": "Cómo puedo seguir involucrado/a?",
 	"faq12-a-1": "Visita nuestro sitio de internet: movimientocosecha.com",
 	"faq12-a-2": "Regístrate para un entrenamiento de Cosecha en tu ciudad! https://actionnetwork.org/forms/sign-up-for-a-training-apuntese-para-un-entrenamiento. ",
 	"faq12-a-3": "Visita nuestras páginas de Facebook: ",
-	"faq12-a-4": " Página central: https://www.facebook.com/movimientocosecha/, Cosecha Boston: https://www.facebook.com/Cosecha-Boston-1556829431283763/?fref=ts, Cosecha Lawrence, MA: https://www.facebook.com/Cosechalawrence/?fref=ts, Cosecha South Bay, CA: https://www.facebook.com/groups/1568567783456587/, Cosecha Minneapolis, MN: https://www.facebook.com/groups/758186424311410/, Cosecha Homestead, FL: https://www.facebook.com/CosechaHomestead/?fref=ts, Cosecha New Jersey: https://www.facebook.com/groups/1399189843713832/, Cosecha Arizona: https://www.facebook.com/groups/1145219062208187/"
-	"faq12-a-5": "Visita nuestra página de Wiki: wiki.movimientocosecha.com "
-
-
+	"faq12-a-4": "Página central: https://www.facebook.com/movimientocosecha/, Cosecha Boston: https://www.facebook.com/Cosecha-Boston-1556829431283763/?fref=ts, Cosecha Lawrence, MA: https://www.facebook.com/Cosechalawrence/?fref=ts, Cosecha South Bay, CA: https://www.facebook.com/groups/1568567783456587/, Cosecha Minneapolis, MN: https://www.facebook.com/groups/758186424311410/, Cosecha Homestead, FL: https://www.facebook.com/CosechaHomestead/?fref=ts, Cosecha New Jersey: https://www.facebook.com/groups/1399189843713832/, Cosecha Arizona: https://www.facebook.com/groups/1145219062208187/",
+	"faq12-a-5": "Visita nuestra página de Wiki: wiki.movimientocosecha.com."
 }
 
 

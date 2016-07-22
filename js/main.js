@@ -3,7 +3,8 @@ $(document).ready(function(){
 		var i18n_data = {
 			es: i18n_es,
 			en: i18n_en,
-			pt: i18n_pt
+			pt: i18n_pt,
+			tl: i18n_tl
 		};
 
 		// Load i18n library

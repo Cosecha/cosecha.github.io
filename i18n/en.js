@@ -136,7 +136,7 @@ var i18n_en = {
 	"faq9-a-2": "Boston, MA: Monthly sustainer: https://actionnetwork.org/fundraising/sustain-cosecha-2?source=direct_link&. 1-time donation: https://actionnetwork.org/fundraising/support-cosecha?source=direct_link& ",
 	"faq9-a-3": "Harrison, NJ: Monthly sustainer: https://actionnetwork.org/fundraising/become-a-sustainer-of-cosecha-new-jersey-conviertete-en-un-sponsor-de-cosecha-new-jersey. ",
 	"faq9-a-4": "San Jose, CA: Monthly sustainer: https://actionnetwork.org/fundraising/sustain-ca-cosecha-house. 1-time donation: https://actionnetwork.org/fundraising/support-ca-cosecha-house. ",
-	
+
 	"faq10-q": "How will my contribution be used?",
 	"faq10-a-1": "Your contribution will go towards meeting the monthly needs of the Houses. Supporting the House is currently one of the best ways to support the development of the movement in general. The Houses generally have a budget of between $3500 - $4500/month. ",
 
