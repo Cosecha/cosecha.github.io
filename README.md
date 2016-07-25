@@ -6,23 +6,42 @@ This is the static site behind [movimientocosecha.com](http://movimientocosecha.
 
 Below are some instructions on how to participate in either web design or content contribution.
 
-### Why Harp?
+# Edit Requests
 
-Harp has some really cool features. It is fairly easy to learn for beginners.
+If you see a change that is needed on the site, and are not a developer, there is a process to request edits using **GitHub Issues**.
 
-# Getting Started
+![GitHub Issues](https://dl.dropboxusercontent.com/u/16972085/cosecha/cosecha-issues.png)
+
+Click on "New Issue":
+
+![New Issue](https://dl.dropboxusercontent.com/u/16972085/cosecha/cosecha-new-issue.png)
+
+It is suggested to use the Issue Template provided, as it will be used during the triage process.
+
+![Issue Template](https://dl.dropboxusercontent.com/u/16972085/cosecha/Screenshot%20from%202016-07-25%2012-38-38.png)
+
+After this, project maintainers will ask questions, clarify things, add appropriate labels etc.
+
+The issue will then be ready to be taken on by anyone wishing to contribute.
+
+If you would like to contribute with development, take a look at the following section and check out the **[open issues ready to be worked on](https://github.com/Cosecha/cosecha.github.io/issues?q=is%3Aopen+is%3Aissue+label%3Astatus-approved)**.
+
+
+
+# For Developers
 ## Setup
 
 To start hacking you first need the following installed:
 
-1. Node.js
-2. Harp.js (globally)
-3. Git
+1. [Node.js](https://nodejs.org/en/)
+2. [Harp.js (globally)](http://harpjs.com/)
+3. [Git](https://git-scm.com/)
+4. [Gulp](http://gulpjs.com/)
 
-Once you have these ready you need to clone this repo into your machine:
+Once you have these ready you need to fork this repo into your account, then download it onto your machine. Replace <your_username> with your GitHub username, or the account where you forked the repo into.
 
 ```
-git clone https://github.com/cosecha/cosecha.github.io.git
+git clone https://github.com/<your_username>/cosecha.github.io.git
 ```
 
 Now move to that directory:
@@ -79,4 +98,8 @@ This copies the compiles harp site to the root directory, without overwriting ex
 
 ## Getting your changes merged
 
-Now it is time to make a pull request so that your changes are merged to the master branch of our repository. Isn't open source beautiful?
+Now it is time to make a pull request so that your changes are merged to the master branch of our repository.
+
+Isn't open source beautiful?
+
+We appreciate every contribution! New contributors will get special thanks on Twitter.
