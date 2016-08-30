@@ -4,5 +4,8 @@
   },
   "villages": {
     "layout": "_layout_basic"
-  }
+  },
+	"builtbus": {
+		"layout": "_layout_basic"
+	}
 }
