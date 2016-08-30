@@ -4,5 +4,8 @@
   },
   "villages": {
     "layout": "_layout_basic"
-  }
+  },
+	"builtbyus": {
+		"layout": "_layout_basic"
+	}
 }

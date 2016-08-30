@@ -136,7 +136,7 @@ var i18n_es = {
 	"faq9-a-2": "Boston, MA: Sostenedor mensual: https://actionnetwork.org/fundraising/sustain-cosecha-2?source=direct_link&. Donación individual: https://actionnetwork.org/fundraising/support-cosecha?source=direct_link&. ",
 
 	"faq9-a-3": "Harrison, NJ: Sostenedor mensual: https://actionnetwork.org/fundraising/become-a-sustainer-of-cosecha-new-jersey-conviertete-en-un-sponsor-de-cosecha-new-jersey. ",
-	
+
 	"faq9-a-4": "California: Sostenedor mensual: https://actionnetwork.org/fundraising/sustain-ca-cosecha-house. Donación individual: https://actionnetwork.org/fundraising/support-ca-cosecha-house.",
 
 	"faq9-a-5": "Apoyar las casas es actualmente una de las mejores maneras de apoyar el desarrollo del movimiento en general. Las casas normalmente tiene un presupuesto mensual de entre $3500 - $4500. Esto significa que tenemos que recaudar muchos fondos cada mes sólo para pagar los biles! ",
@@ -145,7 +145,22 @@ var i18n_es = {
 	"faq12-a-2": "Regístrate para un entrenamiento de Cosecha en tu ciudad! https://actionnetwork.org/forms/sign-up-for-a-training-apuntese-para-un-entrenamiento. ",
 	"faq12-a-3": "Visita nuestras páginas de Facebook: ",
 	"faq12-a-4": "Página central: https://www.facebook.com/movimientocosecha/, Cosecha Boston: https://www.facebook.com/Cosecha-Boston-1556829431283763/?fref=ts, Cosecha Lawrence, MA: https://www.facebook.com/Cosechalawrence/?fref=ts, Cosecha South Bay, CA: https://www.facebook.com/groups/1568567783456587/, Cosecha Minneapolis, MN: https://www.facebook.com/groups/758186424311410/, Cosecha Homestead, FL: https://www.facebook.com/CosechaHomestead/?fref=ts, Cosecha New Jersey: https://www.facebook.com/groups/1399189843713832/, Cosecha Arizona: https://www.facebook.com/groups/1145219062208187/",
-	"faq12-a-5": "Visita nuestra página de Wiki: wiki.movimientocosecha.com."
+	"faq12-a-5": "Visita nuestra página de Wiki: wiki.movimientocosecha.com.",
+
+	"bbu-img": "https://dl.dropboxusercontent.com/u/16972085/cosecha/trump-spanish.png",
+	"bbu-p1": "Hace 35 años, la Torre de Trump fue construida por 200 inmigrantes indocumentados que fueron pagados $5 al día, si eso! A pesar de depender en nuestra labor para hacer millones, Donald Trump se atreve a basar su plataforma presidencial en odio, racismo e ignorancia contra la comunidad inmigrante. Cosecha está aquí para destacar la hipocresía de los sentimientos anti-inmigrantes que resuenan con el público estadounidense durante las campañas para las elecciones de noviembre de 2016. Trump no es el primero, y no será el último, en usar a los inmigrantes como excusa para crear sus carreras políticas. Cosecha está aquí para canalizar el miedo y la frustración de la comunidad inmigrante hacia acción. Queremos mandarle un mensaje al público estadounidense: este país fue construido por nosotros, entonces usaremos nuestro poder laboral y de consumo para demandar protección permanente, dignidad y respeto para nuestra comunidad inmigrante.",
+	"bbu-h1": "Inmigrantes enfrentan Trump y reclaman dignidad",
+	"bbu-p2": "El 31 de agosto, 2016, diez inmigrantes hicieron desobediencia civil en la Torre Trump para mandar el mensaje que la torre, y este país, fue #HechoPorInmigrantes. Somos los pilares que mantienen este país y sin nosotros, fallará. Como inmigrantes, sentimos una ardiente indignación cuando escuchamos a políticos, los medios y apoyantes de Trump dar razones por las cuales deberíamos ser deportados, por qué nuestras familias deberían ser separadas o por qué nuestras contribuciones a este país no tienen valor. Ya no podemos mantener silencio mientras escuchamos el odio y la xenofobia en la radio y la televisión. En vez, Cosecha va a amplificar las voces de nuestra gente -- de nuestra lucha, los dolores y las esperanzas por un futuro donde reclamamos nuestra dignidad y respeto y ganamos protección permanente para nuestra gente.",
+	"bbu-h2": "Apoya a Cosecha mientras dirigimos una confrontación pública y nacional contra el odio, racismo y la xenofobia.",
+	"bbu-btn-1": "Únete a nuestro movimiento",
+
+	"bbu-btn-2": "Comprométete a arriesgar el arresto por Cosecha",
+
+	"bbu-btn-3": "Apúntate para un entrenamiento de iniciación Anti-Trump",
+
+	"bbu-btn-4": "Contáctanos (mapa, facebook, telegram)",
+
+	"bbu-btn-5": "Dona"
 }
 
 
