@@ -146,7 +146,23 @@ var i18n_en = {
 	"faq12-q": "How can I stay involved?",
 	"faq12-a-2": "Sign up for a training in your city!: https://actionnetwork.org/forms/sign-up-for-a-training-apuntese-para-un-entrenamiento. ",
 	"faq12-a-3": "Visit us on facebook! Main page: https://www.facebook.com/movimientocosecha/, Cosecha Boston: https://www.facebook.com/Cosecha-Boston-1556829431283763/?fref=ts, Cosecha Lawrence, MA: https://www.facebook.com/Cosechalawrence/?fref=ts, Cosecha South Bay, CA: https://www.facebook.com/groups/1568567783456587/, Cosecha Minneapolis, MN: https://www.facebook.com/groups/758186424311410/, Cosecha Homestead, FL: https://www.facebook.com/CosechaHomestead/?fref=ts, Cosecha New Jersey: https://www.facebook.com/groups/1399189843713832/, Cosecha Arizona: https://www.facebook.com/groups/1145219062208187/. ",
-	"faq12-a-4": "Check out our wiki at wiki.movimientocosecha.com. "
+	"faq12-a-4": "Check out our wiki at wiki.movimientocosecha.com. ",
+
+	"bbu-img": "https://dl.dropboxusercontent.com/u/16972085/cosecha/trump-english.png",
+	"bbu-p1": "Thirty- five years ago, Trump Tower was built by 200 undocumented immigrants paid $5 a day, if that! Despite having relied on our labor to make his millions, Donald Trump has the audacity to base his presidential platform on hate, racism, and ignorance against the immigrant community. Cosecha is here to highlight the hypocrisy of the anti-immigrant sentiment that is resonating with the American public in the moments leading up to the 2016 November elections. Trump is not the first, and won’t be the last, public figure to make a political career based on the scapegoating of immigrant communities. Cosecha is here to channel the fear and frustration existent within the immigrant community into action. We want to send the American public a message: this country was built by us, so we will use our labor and consumer power to demand permanent protection, dignity, and respect for our immigrant community.",
+	"bbu-h1": "Immigrants Confront Trump & Reclaim Dignity",
+	"bbu-p2": "On August 31, 2016, ten immigrants led a civil disobedience at Trump Tower to send the message that the tower, and this country, was #BuiltByUs. We are the pillars that holds this country up, and without us, it will fall. As immigrants, we feel a burning indignation when we listen to politicians, the media, and Trump supporters give reasons why we should be deported; why our families should be separated; why our contributions to this country hold no value. We can no longer be silent as we listen to hatred and xenophobia in the airwaves. Instead, Cosecha will amplify the voices of our people-- of our struggles, pains, and hope for the future to reclaim dignity & respect for ourselves and win permanent protection for our people.",
+	"bbu-h2": "Stand with Cosecha as we lead a national public confrontation against hate, racism, and xenophobia.",
+	"bbu-btn-1": "Join Our Movement",
+
+	"bbu-btn-2": "Pledge to Risk Arrest for Cosecha",
+
+	"bbu-btn-3": "Sign Up to an Anti-Trump Initiation Training",
+
+	"bbu-btn-4": "Contact Us (map facebook, telegram)",
+
+	"bbu-btn-5": "Donate"
+
 
 
 }
