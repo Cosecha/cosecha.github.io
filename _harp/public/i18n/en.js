@@ -159,7 +159,7 @@ var i18n_en = {
 
 	"bbu-btn-3": "Sign Up to an Anti-Trump Initiation Training",
 
-	"bbu-btn-4": "Contact Us (map facebook, telegram)",
+	"bbu-btn-4": "Contact Us",
 
 	"bbu-btn-5": "Donate"
 

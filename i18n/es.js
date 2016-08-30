@@ -158,7 +158,7 @@ var i18n_es = {
 
 	"bbu-btn-3": "Apúntate para un entrenamiento de iniciación Anti-Trump",
 
-	"bbu-btn-4": "Contáctanos (mapa, facebook, telegram)",
+	"bbu-btn-4": "Contáctanos",
 
 	"bbu-btn-5": "Dona"
 }
