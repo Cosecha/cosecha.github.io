@@ -38,10 +38,13 @@ html(lang='en')
 
 
 	body#page-top.index
+	
+		a.skip-main(href='#main') Skip to main content
 
 		include _partials/nav.jade
-
-		!= yield
+		
+		#main
+			!= yield
 
 		include _partials/footer.jade
 
