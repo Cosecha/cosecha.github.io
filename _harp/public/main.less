@@ -600,7 +600,27 @@ a.skip-main:focus, a.skip-main:active {
     z-index:2000;
 }
 
+.button-stack{
+	position: relative;
+	top: 80px;
+	background: #333;
+	> .row{
+		padding: 0 30px;
+		> .col-lg-6, .col-lg-4 {
+			margin: 30px auto;
+			> a {
+				text-align: center;
+				font-size: 1.2em;
+				font-weight: bolder;
+				width: 100%;
+				color: #fff;
+				background-color: #069a0c;
+				border-color: #08730c;
+			}
+		}
+	}
 
+}
 
 
 
