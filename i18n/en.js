@@ -155,13 +155,13 @@ var i18n_en = {
 	"bbu-h2": "Stand with Cosecha as we lead a national public confrontation against hate, racism, and xenophobia.",
 	"bbu-btn-1": "Join Our Movement",
 
-	"bbu-btn-2": "Pledge to Risk Arrest for Cosecha",
+	"bbu-btn-2": "Donate",
 
 	"bbu-btn-3": "Sign Up to an Anti-Trump Initiation Training",
 
 	"bbu-btn-4": "Contact Us",
 
-	"bbu-btn-5": "Donate"
+	"bbu-btn-5": "Pledge to Risk Arrest for Cosecha"
 
 
 
