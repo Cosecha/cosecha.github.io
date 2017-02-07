@@ -6,20 +6,21 @@ var i18n_tl = {
 	"cosecha_structure": "Cosecha Structure",
 	"img_cosecha_structure": "http://wiki.movimientocosecha.com/lib/exe/fetch.php/cosecha:cosecha-structure.jpg",
 	"history": "Our Story",
-	"history_1": "We are the Cosecha Movement - named to honor the thousands of undocumented workers that provide food to our many tables today and for the legacy of the millions of workers that were forced to be slaves to provide for the accumulation of this country.",
-	"history_2": "We are part of a legacy of movements in this country. We are students of the thousands of farmworkers that stood up to the exploitation with the leadership of Dolores Huerta, Larry Itliong and Cesar Chavez, and students of the thousands of African-Americans that stood up to the racist Jim Crow system all over this country.",
-	"history_3": "From our past, we learned that all this pain - the raids, the separation, the deportations, the exploitation - continues because we allow it to.",
-	"history_4": "From our people, we heard that our greatest powers are our spending money and our bodies that are made invisible but provide so much sustenance to this country. We heard that we need to do a general strike.",
-	"history_5": "So we spent a year and a half thinking about and testing the right nonviolent strategy for the immigrant rights movement in this country.",
-	"history_6": "We launched our movement with a national training in Wisconsin in July. Since then, we've grown enormously and just had the first Cosecha National Assembly in May 2016!",
-	"history_7": "People across the country can join Cosecha as long as they are committed and follow the principles and strategy of the movement. Will you join us?",
+	"history_1": "Kami ang Cosecha Movement- Pinangalanan para parangalan ang libo-libong trabahador na walang dokumento na naglagay ng pagkain sa ating hapagkainan at para sa pamana ng milyong-milyong trabahador na napilitang maging alipin para sa ikauunlad ng bansa.",
+	"history_2": "Kami ay parte ng makasaysayang kilusan ng bansa. Kami ay estudyante ng libo-libong magsasaka na tumayo laban sa eksploytasyon kasama ang mga pinuno na sila Dolores Huerta, Larry Itliong at Cesar Chavez. Estudyante ng libo-libong itim na lumaban sa maling “Jim Crow system” sa bansa.",
+	"history_3": "Mula sa ating nakalipas, natutunan natin na ang lahat ng sakit - pagbubukod, deportasyon, eksploytasyon - ay hindi tumitigil dahil hinahayaan natin itong mangyari.",
+	"history_4": "Mula sa aming mga kasamahan, nalaman namin na ang pinaka malakas na sandata ng ating samahan ay ang kakayahan na mamili ng produkto na bibilhin at ang ating katawan na ginagamit upang makapag bigay ng pulidong trabaho. Ang bansa ay matatag dahil sa atin. Nasabi sa amin na kailangan naming gumawa ng malaking strike.",
+	"history_5": "Kaya naglaan kami ng isa at kalahating taon para pag-isipan at suriin ang tamang paraan at hindi marahas para sa mga immigrant rights movement dito sa bansa.",
+	"history_6": "Pinakilala namin ang aming movement na may pangbansang pagsasanay sa Wisconsin noong hulyo. Mula nuon, lumawak ang aming samahan at naganap ang unang Cosecha National Assembly noong Mayo 2016!",
+	"history_7": "Lahat ng tao sa bansa ay pwedeng sumali sa Cosecha basta sila ay disidido at sumusunod sa prinsipyo at paraan ng grupo.
+Sasali ka ba sa amin?",
 	"join_us": "Join Us",
 	"click_here": "Click Here",
-	"be_a_monthly_sustainer": "Become a Monthly Sustainer",
-	"become_a_friend_of_cosecha": "Become a friend of Cosecha",
-	"buy_from_the_cosecha_store": "Buy from the Cosecha Store",
+	"be_a_monthly_sustainer": "Buwanang tulong",
+	"become_a_friend_of_cosecha": "Maging kaibigan ng Cosecha",
+	"buy_from_the_cosecha_store": "Mamili sa Cosecha store",
 	"sign_up": "Sign Up",
-	"the_plan": "The Plan",
+	"the_plan": "Ang Plano",
 	"principles": "Principles",
 	"structure": "Structure",
 	"join" : "Join",
@@ -42,60 +43,60 @@ var i18n_tl = {
 	"principle": "Principle",
 
 
-	"principle_01_title": "Monkey see, monkey do",
-	"principle_01_body": "We lead by inspiring and suggesting, never by commanding. Our leaders are but trusty servants; they do not govern. We all take initiative and respect those of others. It’s not about one idea; it’s about many good ideas. As we continue embodying/living out movement values, we remember that principles come before personality.",
+	"principle_01_title": "Ang nakikita ng unggoy ay ­siyang ginagawa nito.",
+	"principle_01_body": "Kami ay tagapag patnubay at di tagapag utos. Ang aming mga kasama ay mapagkakatiwalaan na tagasunod at hindi pinunong tagapag pasya. Lahat kami ay masisiglang indibidwal na rumerespeto sa ibang tao. Importante ang maraming ideya hindi lamang isa. Sa pagpapatuloy ng aming paglalakbay pagkaka tandaan namin ang prinsipyo ng aming samahan bago ang aming katauhan.",
 
 
-	"principle_02_title": "We are all a family",
-	"principle_02_body": "This movement welcomes everyone from different countries, ethnicities, races, genders, sexual orientations, religious and spiritual beliefs. We know the wisdom of our movement comes from the voices that are often the most silenced. Since the dominant language can take over a space and silence the people who don’t feel comfortable with the words, we have the “multilingual-rule” which is about making every space open to multiple languages. We operate in the languages that come easily to our community.",
+	"principle_02_title": "Tayong lahat ay pamilya",
+	"principle_02_body": "Ang aming samahan ay hindi tumatanggi sa kahit kanino, mapa-iba man ang iyong bansa, lahi, kasarian, sekswal na katauhan, relihiyon o espirituwal na paniniwala. Alam namin na ang karunungan ng aming samahan ay kadalasang nang gagaling sa mga taong di naririnig. Dahil iba iba ang lengguwahe ng mga tao sa komunidad. Meron kaming “multilingual-rule” na magbubukas ng mas madaling paraan para maintindihan ng nakakarami. Kami ay gagamit ng lengguwahe na mas angkop sa komunidad.",
 
 
-	"principle_03_title": "There is no cover for this party.",
-	"principle_03_body": "You don’t need permission to participate in this movement. This becomes a reality when we see how our “3-activist rule” works. The rule says that when 3 people decide to become activists in Harvest, they can form a circle and get full support from the movement. We make our own decisions in our circles and we choose to participate in the activities of the movement that we feel most excited about. We can party together as long as we follow the principles of our Harvest. There is no dress code for this party. Our movement needs musicians, artists, dancers, creatives, mothers, daughters, workers, street-intellectuals, poets, academics, students, etc. We encourage risk-taking because the diversity of our creativity will help us find the most effective strategies, tools, actions, and virialization of our movement. Promotion for actions. attraction for trainings and absorption for unity.",
+	"principle_03_title": "Lahat ay kasali sa kasiyahan.",
+	"principle_03_body": "Hindi kailangan ng pahintulot ng kahit sino upang makasali sa grupo. Ito ay naging abot kamay nung nakita namin kung paano gumana ang “3-activist rule.” Kung may 3 tao na nagpasya na maging aktibista sa Cosecha, sila ay pwedeng gumawa ng sarili nilang circle o grupo at makakuha ng suporta Cosecha. Gumagawa ng sariling desisyon ang grupo at sila ang namimili ng mga aktibidad na gustong nilang salihan. Maaring silang sumali kung susundin ang mga patakaran ng Cosecha. Hindi importante ang iyong kasuotan. Ang aming grupo ay nangangailangan ng musikero, artista, mananayaw, ama, ina, anak, manggagawa, manunulat, estudyante at iba pa. Kami ay di takot sumugal dahil ang pagkakaiba ng aming pagkamalikhain ay maaaring makatulong upang mahanap ang pinaka epektibong estratehiya, gamit, at gawain para sa aming samahan.",
 
 
-	"principle_04_title": "We don’t dance with political parties.",
-	"principle_04_body": "We are tired of broken promises by political parties. They want our phone numbers for their elections but never call us after they’re elected. Our work is on the streets and with the people — we are not focused on politicians. Our target is the people — we will only engage politicians and their supporters to get them to take a leave of absence from their parties. We don’t have external representatives or advocates; we speak for ourselves. If the political leadership(president and congress) make a commitment to pass legislation that might give us permanent protection we will use 60-day rule, the rule is about everyone in Cosecha giving the parties a 60 day deadline in order for them to enact permanent protection if not we continue with the current phase at the 60 day mark regardless of more promises.",
+	"principle_04_title": "Hindi kami nakikipaglaro sa mga politiko.",
+	"principle_04_body": "Kami ay sawa na sa mga napakong pangako ng mga politiko. Nanjan sila kapag eleksyon at biglang nawawala kapag nakaupu na. Ang aming trabaho ay nasa lansansangan kasama ang mga tao. Hindi kami pokus sa mga politiko. Ang aming pokus ay ang mga tao. Nakikisama lamang kami sa mga politiko dahil gusto naming marinig kami ng mga taong sumusuporta sa kanila. Wala sa aming nagsasabi ng dapat naming gawin. Kung ang presidente at ang kongreso ay nangangako na ipasa ang batas na magbibigay ng permanenteng proteksyon gagamitin namin ang “60-day rule”, maghihintay kami ng 60 na araw para mapatupad ang batas. Kung hindi ipatupad ang batas sa luob ng 60 na araw, itutuloy namin ang aming mga ginagawa at hindi kami titigil kahit mag bigay pa sila ng mas maraming pangako.",
 
 
-	"principle_05_title": "Our weapon is non-cooperation",
-	"principle_05_body": "We know our power is rooted in non-cooperation with the current political, social and economic systems. Without working hands, there is no labor: we won’t cooperate until this country recognizes it depends on us.",
+	"principle_05_title": "Ang aming sandata ay ang hindi pagsunod",
+	"principle_05_body": "Alam namin na ang aming lakas ay nanggagaling sa hindi pagtulong sa kasalukuyang pampulitikang sistema, sosyal na sistema, at pangkabuhayang sistema. Kung wala ang trabahador, walang matatapos na trabaho. Hindi kami makikisama hanggang hindi kinikilala ng bansa ang mga taong gumagawa para sa kanila.",
 
 
-	"principle_06_title": "Our shield is nonviolence",
-	"principle_06_body": "Non-violence keeps our movement alive. It is our shield that reflects the true perpetrators of the state violence that our people suffer from daily. It is our strategy to bring light to the injustice that we suffer every day. We feel pain from the abuses of the police and others, and we will keep exposing their violence through our discipline.",
+	"principle_06_title": "Ang aming panangga ay ang pagiging hindi marahas",
+	"principle_06_body": "Ang pagiging hindi marahas ang siyang bumubuhay sa ating samahan. Ito ang ating panangga sa mga tunay na nangaapi sa ating mga kasamahan. Ito ang ating estratehiya upang magbigay liwanag sa maling pagpapatupad ng batas laban sa atin. Nararamdaman natin ang sakit mula sa mga abusadong pulis at iba pa. Ipagpapatuloy nating ipakita karahasan gamit ang ating disiplina.",
 
 
-	"principle_07_title": "The soil of our harvest is respect and reciprocity",
-	"principle_07_body": "The ground on which this movement stands is on the relationships of its participants. We will work every day to build trust, respect and reciprocity among all of us. We assume all harvesters have good intentions and also react immediately against disrespect. We use conflict resolution techniques to deal with conflict in a healthy way that will bring growth to our movement. We ground our work in dialogue, healing, and collective transformation. We won’t tolerate shaming of each other and bullying towards the many organizations and leaders of the immigrant rights movement.",
+	"principle_07_title": "Ang pundasyon ng aming samahan ay ang respeto sa kapwa",
+	"principle_07_body": "Ang aming samahan ay nakatayo sa pundasyon na gawa sa relasyon ng mga kasali sa aming grupo. Magtratrabaho kami araw-araw para makagawa ng tiwala, respeto at bayanihan para sa lahat. Inaasahan namin na ang lahat ng kasali sa samahan ay mayroong magandang intensyon at marunong kumilala ng maling pakikitungo. Kami ay gumagamit ng magandang paraan laban sa mga matusok na problema upang umunlad ang Cosecha. Gumagamit kami ng mga salita na nakakapagpagaling at nakakapagpabago. Hindi namin papayagan na kami ay maapakan at ma bastos tulad ng ibang organisasyon.",
 
 
-	"principle_08_title": "Our seeds come from the tree of sacrifice.",
-	"principle_08_body": "We honor the hard work of all the people who bring their gifts to the movement. We believe that people’s work in Harvest is for the collective well-being of everyone and not for personal gain or to advance individual interests. While most of the work of the movement is not financially compensated, there are some positions that movement leaders can sponsor in order to create more support for the movement. Those positions will be compensated based on needs and not by a market employment rate. They are temporary and only meant to support the movement at key moments.",
+	"principle_08_title": "Ang aming mga sakripisyo ay nagbubunga.",
+	"principle_08_body": "Pinasasalamatan namin ang mga masisipag na tao na sumusuporta at nagbibigay tulong sa ating samahan. Naniniwala kami na ang mga tao na tumutulong sa Cosecha ay gustong makatulong sa pangkalahatan at hindi lamang sa para sa isa o personal na interes. Habang ang karamihan sa mga trabaho na ginagawa ng samahan ay walang bayad. Merong mga paraan na pwedeng magbigay ng isponsor ang lider ng samahan para mas maging epektibo ang tulong. Ito ay ibabase sa laki ng kailangan na tulong at hindi sa laki ng ibabayad sa tao. Hindi ito pang matagalan at ginagamit lang ito upang ma suportahan ang mga importanteng pagkilos.",
 
 
-	"principle_09_title": "All we need is already within our community now.",
-	"principle_09_body": "We know that when we get BIG money it’s because they want to control our movement, that is why we are always self-sustaining. We know that all the resources we need, including financial, are already in our community.",
+	"principle_09_title": "Lahat ng kina kailangan namin ay nasa komunidad.",
+	"principle_09_body": "Alam namin na kapag tumanggap kami ng malaking halaga mula sa isang tao o grupo ay pipilitin nilang kontrolin ang aming samahan. Dahil dito kami ay hindi tumatanggap ng ano mang tulong mula sa mga taong merong pang sariling interes. Alam namin na ang kailangan naming tulong na nanggagaling sa komunidad ay sapat.",
 
 
-	"principle_10_title": "You can wear our colors as long as you follow our principles.",
-	"principle_10_body": "Any organization can use the Harvest flag as long as they follow our principles. Anyone can join. Formal organizations (outside of Harvest) must join support circles with other Harvest activists as long they accept our strategy and story of the movement. No formal organization can request resources in the name of Harvest unless they are resources distributed among our villages",
+	"principle_10_title": "Pwede kayong maging kasapi bastat susundin ninyo ang aming paniniwala.",
+	"principle_10_body": "Ano man organisasyon ay pwedeng gamitin ang bandera ng samahan bastat susundin nila ang mga panuntunan. Lahat ay pwedeng sumali. Ang ibang grupo na hindi kasapi sa Cosecha na gustong lumahok ay maaring sumali kung susundin nila ang paraan ng samahan. Walang organisasyon na pwedeng humingi ng tulong gamit ang pangalan ng Cosecha maliban kung ito ay tulong na ma-ipapamahagi at makakatulong sa lahat.",
 
 
-	"principle_11_title": "One harvest, many fruits.",
-	"principle_11_body": "There are thousands of ways to be part of the Harvest strategy. We encourage daily autonomy and creativity in how to implement the movement based on people’s conditions. At the same time, our movement unity depends on all our teams working together and following our greatest agreement: our Harvest principles. The principles are the music score of our Harvest orchestra and all the instruments are the creativity of our activist.",
+	"principle_11_title": "Ang isang grupo ay maraming bunga.",
+	"principle_11_body": "Mayroong libo-libong paraan para maging parte ng estratehiya ng samahan. Ginagamit namin araw-araw ang aming pagkamakabayan at pagkamalikhain upang mapalaganap ang aming kapangyarihan base sa kondisyon ng mga tao. Ang aming pagkakaisa ay bunga ng aming mga kasamahang nagtatrabaho ng sama-sama gamit ang aming mga panuntunan. Ang aming panuntunan ay parang plano ng musika. Ang Cosecha ay ang mga musikero at ang mga instrumento ay ang pagkamalikhain ng aming mga aktibista.",
 
 
-	"principle_12_title": "We are one of many harvests.",
-	"principle_12_body": "We know the injustices of our community cannot be undone with just one movement. We know that the systems of domination require multiple cycles of movements that are working for many decades to bring reciprocity and balance to our communities. Harvest is just one piece of a larger justice puzzle.",
+	"principle_12_title": "Kami ay isa sa maraming grupo.",
+	"principle_12_body": "Alam namin na hindi lahat ng kasalanan sa komunidad ay nawawala dahil sa isang pagkilos. Alam namin na ang dominanteng sistema nangangailangan ng matagalan na laban ng mga tao upang mabago at maging balanse para sa mga tao. Ang Cosecha ay isang maliit na parte sa mahabang laban para sa patas na sistema.",
 
 
-	"principle_13_title": "This swarm needs all its bees.",
-	"principle_13_body": "This movement will take all of us. While some of us are more focused on taking care of our community, others are more called to be prophetic voices to bring people into the movement. We all have different callings and roles that we want to take on. Our spirit of coordination comes together as we affirm, “If you’re stuck, buzz”. This means that if you need help, just ask for it. We can only be a movement if we support each other. We also know people are part of various organizations and that people can be in and out of Harvest and we make a distinction between the participation of individuals and organizations.",
+	"principle_13_title": "Ang grupong ito ay kailangan ng mga tao.",
+	"principle_13_body": "Kailangan ang lahat para sa laban na ito. Habang ang iba ay nakapokus sa pag aaruga ng ating comunidad. Ang iba ay matatawag na may roong “prophetic voices” nakakapag dala ng mga tao sa samahan. Lahat tayo ay may mga sariling paniniwala at papel sa laban. Lahat tayo ay iisa, “If you’re stuck, buzz”. Ang ibig sabihin nito ay kung kailangan mo ng tulong ang kailangan mo lang gawin ay humingi. Tayo ay magiging isang samahan lamang kung tayo ay magtutulungan. Alam namin na may mga organisasyon at mga individual na gustong sumali sa aming laban.",
 
 
-	"principle_14_title": "An injustice somewhere is a threat to justice everywhere.",
-	"principle_14_body": "We know the undocumented community is not the only one facing oppression and that this system of inequality has been going on for a long time. We believe that our movement’s mission is to be active in other movements for racial, gender and economic justice.",
+	"principle_14_title": "Ang isang di makatarungan pangyayari ay banta sa kabuuan ng katarungan.",
+	"principle_14_body": "Alam namin na hindi lamang ang mga walang documento ang naa ubuso at ang sistema ay matagal nang hindi balanse. Naniniwala kami na ang aming samahan ay susuporta kasama ang mga grupo na lumalaban para sa pang lahing katarungan,  katarungang pangkasarian at katarungang pang ekonomiya.",
 
 	"close": " Close",
 
